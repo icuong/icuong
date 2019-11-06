@@ -1,0 +1,27 @@
+.wrap-format-code {
+	border: 1px solid #BDBDBD;
+    padding: 5px;
+    border-left: 4px solid var(--title-color);
+    border-radius: 4px;
+	background-color: var(--formar-code-background);
+}
+
+span.angle-bracket {
+	color: var(--btn-color);
+}
+span.tag-color {
+	color: #FF5722;
+}
+span.format-code-text {
+	color: var(--font-color);
+}
+span.note {
+	color: #FFCA28;
+}
+
+.illustration {
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
