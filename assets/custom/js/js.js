@@ -6,16 +6,30 @@
 ***************************************************************************
 */
 
-var btnListTutorial = document.getElementById("btn-list-tutorial");
+var body = document.body;
+var html = document.documentElement;
+var bodyH = Math.max(body.scrollHeight, body.offsetHeight, body.getBoundingClientRect().height, html.clientHeight, html.scrollHeight, html.offsetHeight); // The max height of the body
+var heightScreen = screen.height;
 
+var btnListTutorial = document.getElementById("btn-list-tutorial");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btnListTutorial.style.display = "block";
-  } else {
-    btnListTutorial.style.display = "none";
-  }
+ 
+    var scrollHeight = document.body.scrollTop || document.documentElement.scrollTop;
+
+    if (scrollHeight > (bodyH - 700)) {
+        document.getElementById("ok").style.maxHeight = heightScreen - 400 + "px";
+    } else {
+        document.getElementById("ok").style.maxHeight = "none";
+    }
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        btnListTutorial.style.display = "block";
+    } else {
+        btnListTutorial.style.display = "none";
+    }
+
 }
 
 function openTutorial() {

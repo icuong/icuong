@@ -276,8 +276,7 @@ a.read-more:hover {
     height: 100%;
     width: 100%;
     display: none;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgba(0,0,0, 0.4);
 }
 .list-tutorial {
     position: relative;
@@ -467,11 +466,11 @@ input:checked + .slider:before {
 *************************     Topics   ** *********************************
 ***************************************************************************
 */
-.padding-top {
+.p-top-99-89 {
     padding-top: 89px;
 }
 @media (min-width: 768px) {
-    .padding-top {
+    .p-top-99-89 {
         padding-top: 99px;
     }
 }
@@ -558,7 +557,7 @@ ul.breadcrumb li a:hover {
 ***************************************************************************
 */
 
-.content-main, .content-ads {
+.content-main, .content-right {
     margin-bottom: 38px;
 }
 
@@ -649,6 +648,7 @@ span.post-meta-item {
    color: var(--meta-color);
    font-style: italic;
    font-size: 12px;
+   margin-right: 7px;
 }
 .post-meta-item-time, .post-meta-item-view, .post-meta-item-comments {
     display: none;
@@ -668,6 +668,30 @@ span.post-meta-item {
         line-height: 45px;
     }
 
+}
+
+/* Contain Right */
+.content-right-home {
+    position: sticky;
+    top: 90px;
+}
+
+ul.ul-list {
+    list-style: none;
+    padding: 0;
+}
+ul.ul-list li {
+
+}
+ul.ul-list li a {
+    color: var(--btn-color);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    font-size: 14px;
+}
+ul.ul-list li a:hover {
+    color: var(--btn-color-hover);
 }
 
 /*

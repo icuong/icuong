@@ -1,0 +1,23 @@
+/* The figure element classes */
+.w-800 {
+	max-width: 800px;
+}
+.w-700 {
+	max-width: 700px;
+}
+.w-600 {
+	max-width: 600px;
+}
+.w-500 {
+	max-width: 600px;
+}
+.e-margin-auto {
+	margin: auto;
+}
+.e-text-center {
+	text-align: center;
+}
+
+.mw-100 {
+	max-width: 100%;
+}
