@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/chicuong
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://icuong.co
+  * I am chicuong (https://keybase.io/chicuong) on keybase.
+  * I have a public key ASC1-VNoQOEJ0tF-GRCUZdS1ZoEaBKBtGu4K2jH_pMmxgwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b5f9536840e109d2d17e19109465d4b566811a04a06d1aee0ada31ffa4c9b1830a",
+      "host": "keybase.io",
+      "kid": "0120b5f9536840e109d2d17e19109465d4b566811a04a06d1aee0ada31ffa4c9b1830a",
+      "uid": "0312c10582bc500f39048ae8243b5619",
+      "username": "chicuong"
+    },
+    "merkle_root": {
+      "ctime": 1573580023,
+      "hash": "706485edb87f78a7938dfb35d62df9df7d3640fc7735d2d0d6544e2f9640c58d02ce82eb4f86faaa1a64df773e057262cd5db44a3511f914022eec9229a13de9",
+      "hash_meta": "bd01c93357416c796a3a876a7681579edd468848897ea4f6f9c3ef2b78a2813f",
+      "seqno": 9257023
+    },
+    "service": {
+      "entropy": "rmnFESh6v5In690kS+J1NNwG",
+      "hostname": "icuong.co",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1573580039,
+  "expire_in": 504576000,
+  "prev": "138cecc1ff6c962f0f87a44a70328fe9ab526186ec91f2cd7a77b8813cd0753e",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgtflTaEDhCdLRfhkQlGXUtWaBGgSgbRruCtox/6TJsYMKp3BheWxvYWTESpcCCsQgE4zswf9sli8Ph6RKcDKP6atSYYbskfLNene4gTzQdT7EIJJRjkxpCcpyRKymoNhLdyBk1T+V8ochFnS1vwI4XC7WAgHCo3NpZ8RA0JNk+NGOXtCBsgYElZeAmie3tL/a826VPPG9Zf5uqQ1Yov3+5nyQoGjIzXTLB6s1EPp1HS3BLunfuNcjrx3dA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIgRqdjD43L1o9ZgFEi2fyfNeZgC6tDbL9oqQ0fEs/u9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chicuong
+
+==================================================================   
