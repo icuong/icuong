@@ -16,6 +16,13 @@ p {
     color: var(--font-color);
     font-size: 1rem;
 }
+
+figcaption {
+    color: var(--font-color);
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
 @media (min-width: 768px) {
     p {
         color: var(--font-color);
@@ -521,6 +528,10 @@ input:checked + .slider:before {
 ***************************************************************************
 */
 
+.menu-main {
+    display: none;
+}
+
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
@@ -549,6 +560,57 @@ ul.breadcrumb li a {
 }
 ul.breadcrumb li a:hover {
     color: #1488C6;
+}
+
+/*
+***************************************************************************
+*************************     MAIN MENU MOBILE   ********************************
+***************************************************************************
+*/
+.scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.menu-main-mobile-container {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.nav-item {
+    padding: 6px 14px 7px;
+    background-color: #eee;
+    margin-right: 4px;
+    border-radius: 15px;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0087C8;
+}
+
+.nav-item,
+.vertical-align-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Show/Hide menu on Mobile */
+@media (min-width: 992px) {
+    .menu-main {
+        display: block;
+    }
+    .menu-main-mobile-container {
+        display: none;
+    }
 }
 
 /*
