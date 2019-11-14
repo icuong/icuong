@@ -772,3 +772,8 @@ footer {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+
+.list-of-contents-sub {
+    list-style: none;
+}
