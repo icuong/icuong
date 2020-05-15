@@ -1,693 +1,219 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>iCuong</title>
-
-	<!-- Root CSS -->
-	<link rel="stylesheet" href="assets/root/css/root.css">
-
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="assets/custom/css/style.css">
-	<link rel="stylesheet" href="assets/custom/css/responsive.css">
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<!-- Font Google -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<!-- Search Mobile -->
-	<div class="search-container-m" id="search-container-m">
-	
-	 	<a href="javascript:void(0)" class="close-search-btn" onclick="closeSearch()">&times;</a>
-
-		<div class="search">
-
-			<form action="index.html">
-		    	<input type="text" placeholder="Search.." name="search">
-		     	<button type="submit"><i class="fa fa-search"></i></button>
-		    </form>
-
-		</div>
-
-	</div>
-
-	<!-- iCuong Sidenav -->
-	<div class="icuong-sidenav-container" id="icuong-sidenav-container">
-
-		<div class="icuong-sidenav" id="icuong-sidenav">
-			
-		 	<a href="javascript:void(0)" class="icuong-btn" onclick="closeIcuong()">&times;</a>
-
-			<div class="icuong-avatar">
-				<img class="icuong-img" src="imgs/myavatar.jpg" alt="iCuong">
-			</div>
-			
-			<div class="icuong-body">
-				<h1 class="icuong-name">iCuong</h1>
-				<p>Hi Guys!</p>
-				<p>I'm a web developer with PHP and Javascript. I love programming and design... <a href="about-me.html" class="read-more">More</a></p>
-
-				<ul class="list-socical">
-					<li class="list-socical-item">
-						<a href="https://github.com/icuong" target="_blank"><i class="fa fa-github"></i></a>
-					</li>
-					<li class="list-socical-item" style="display: none;">
-						<a href=""><i class="fa fa-instagram"></i></a>
-					</li>
-					<li class="list-socical-item"  style="display: none;">
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</li>
-					<li class="list-socical-item">
-						<a href="https://www.youtube.com/channel/UClyxvh446klV151zRZNMiKQ/" target="_blank"><i class="fa fa-youtube"></i></a>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-
-	</div>
-	
-	<!-- Button for open List Tutorial -->
-
-	<!-- List Tutorial -->
-
-	<!-- Container Site -->
-	<div class="container-site">
-		
-		<!-- Header -->
-		<header>
-
-			<!-- Nav Top -->
-			<div class="topnav-container container-fluid">
-				<div class="topnav container-fluid">
-					
-					<div class="topnav-left">
-
-						<div id="btn-open-info" class="btn-toggle-bar-container info">
-							<div class="bar1"></div>
-							<div class="bar2"></div>
-							<div class="bar3"></div>
-						</div>
-
-						<a class="logo" href="index.html" title="iCuong">
-							<canvas id="logo-canvas" width="80" height="30">
-							</canvas>
-						</a>
-
-					</div>
-
-					<div class="search-container">
-						<form action="index.html">
-							<input type="text" name="search" placeholder="Search..." size="40">
-						</form>
-
-						<div class="btn-toggle-bar-container" onclick="chanBtnToggle(this)" style="display: none;">
-							<div class="bar1"></div>
-							<div class="bar2"></div>
-							<div class="bar3"></div>
-						</div>
-							
-						<button class="btn-search-m" type="submit" id="btn-search-m"><i class="fa fa-search" onclick="openSearch()"></i></button>
-
-					</div>
-					
-					<div class="topnav-right">
-						<label class="switch-theme">
-							<input type="checkbox">
-							<span class="slider"></span>
-						</label>
-
-						<div class="user-container">
-							<a class="user" href="#user"><i class="fa fa-user"></i> Login</a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			
-			<div class="p-top-99-89"></div>
-
-			<!-- Topics -->			
-			<div class="topic-container container">
-
-				<h4 class="heading heading-topic">Topics for you</h4>
-				
-				<div class="row">
-
-					<div class="col-4 col-md-3 col-lg-2">
-						
-						<a class="topic-link" href="docs/html" title="HTML">
-							<div class="topic">
-								
-								<div class="topic-icon-background">
-									<img class="topic-img" src="imgs/topics/html5.png" alt="HTML">
-								</div>
-								
-								<span class="topic-title">HTML5</span>
-							</div>
-						</a>
-
-					</div>
-
-					<div class="col-4 col-md-3 col-lg-2">
-						
-						<a class="topic-link" href="docs/css" title="CSS">
-							<div class="topic">
-								
-								<div class="topic-icon-background">
-									<img class="topic-img" src="imgs/topics/css3.png" alt="CSS">
-								</div>
-								
-								<span class="topic-title">CSS</span>
-							</div>
-						</a>
-
-					</div>
-
-					<div class="col-4 col-md-3 col-lg-2">
-						
-						<a class="topic-link" href="docs/javascript" title="Javascript">
-							<div class="topic">
-								
-								<div class="topic-icon-background">
-									<img class="topic-img" src="imgs/topics/javascript.png" alt="Javascript">
-								</div>
-								
-								<span class="topic-title">Javascript</span>
-							</div>
-						</a>
-
-					</div>
-
-					<div class="col-4 col-md-3 col-lg-2">
-						
-						<a class="topic-link" href="docs/php" title="PHP">
-							<div class="topic">
-								
-								<div class="topic-icon-background">
-									<img class="topic-img" src="imgs/topics/php.png" alt="PHP">
-								</div>
-								
-								<span class="topic-title">PHP</span>
-							</div>
-						</a>
-
-					</div>
-
-					<div class="col-4 col-md-3 col-lg-2">
-						
-						<a class="topic-link" href="docs/sql" title="SQL">
-							<div class="topic">
-								
-								<div class="topic-icon-background">
-									<img class="topic-img" src="imgs/topics/sql.png" alt="SQL">
-								</div>
-								
-								<span class="topic-title">SQL</span>
-							</div>
-						</a>
-
-					</div>
-
-					<div class="col-4 col-md-3 col-lg-2">
-						
-						<a class="topic-link" href="docs/git" title="Git">
-							<div class="topic">
-								
-								<div class="topic-icon-background">
-									<img class="topic-img" src="imgs/topics/git.png" alt="Git">
-								</div>
-								
-								<span class="topic-title">Git</span>
-							</div>
-						</a>
-
-					</div>
-
-
-				</div>
-				
-			</div>
-
-			<!-- Menu Main -->
-			<div class="menu-main container-fluid">
-				<ul class="breadcrumb">
-					<li><a href="docs/wordpress/wordpress-basic">WordPress basic</a></li>
-					<li><a href="docs/wordpress/theme-development">WordPress Theme</a></li>
-					<li><a href="docs/wordpress/woocommerce">Woocommerce</a></li>
-					<li><a href="docs/gitHubpages">GitHub Pages</a></li>
-					<li><a href="#">Front-End</a></li>
-					<li><a href="#">Back-End</a></li>
-					<li><a href="#">Bootstrap</a></li>
-					<li><a href="docs/codeigniter">Codeigniter</a></li>
-				</ul>
-			</div>
-
-			<!-- Menu Main Mobile -->
-			<div class='menu-main-mobile-container container'>
-			  <div class='menu-main-mobile scroll'>
-			    <nav class='vertical-align-middle'>
-			      <a href="docs/wordpress/wordpress-basic">
-			      	<span class='nav-item'>WordPress basic</span>
-			      </a>
-			       <a href="docs/wordpress/theme-development">
-			      	<span class='nav-item'>WordPress Theme</span>
-			      </a>
-			      <a href="docs/wordpress/woocommerce">
-			      	<span class='nav-item'>Woocommerce</span>
-			      </a>
-			      <a href="docs/gitHubpages">
-			      	<span class='nav-item'>GitHub Pages</span>
-			      </a>
-			      <a href="#">
-			      	<span class='nav-item'>Front-End</span>
-			      </a>
-			      <a href="#">
-			      	<span class='nav-item'>Back-End</span>
-			      </a>
-			      <a href="#">
-			      	<span class='nav-item'>Bootstrap</span>
-			      </a>
-			      <a href="docs/codeigniter">
-			      	<span class='nav-item'>Codeigniter</span>
-			      </a>
-			    </nav>
-			  </div>
-			</div>
-
-		</header>
-
-		<!-- Content -->
-		<section>
-			<div class="content-container container-fluid">
-				
-				<div class="row">
-
-					<!-- Content Main -->
-					<div class="col-12 col-md-9 content-main">
-						
-						<div class="control-posts clearfix">
-							<h4 class="heading heading-post">
-								Posts
-							</h4>
-							<div class="btn-control-group">
-								<button class="btn-control" onclick="onlyTitle()"><i class="fa fa-th-list"></i></button>
-								<button class="btn-control active" onclick="previewContent()"><i class="fa fa-newspaper-o"></i></button>
-							</div>
-						</div>
-
-						<div class="group-posts">
-
-							<article class="post card">
-								
-								<div class="post-author clearfix">
-									
-									<div class="author">
-										<span>
-											<a href="#">iCuong</a>
-										</span>
-									</div>
-
-									<div class="avatar-container">
-										<img class="avatar" src="imgs/avatar.png" alt="iCuong" title="iCuong">
-									</div>
-										
-								</div>
-								
-								<div class="post-body">
-
-									<h2 class="post-title">
-										<a href="posts/what-is-wordpress.html">What is WordPress?</a>
-									</h2>
-
-									<div class="post-content">
-										<p>WordPress is open source software you can use to create a beautiful website, blog, or app....</p>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-time">April 14, 2019</span>
-										<span class="post-meta-item post-meta-item-cat">WordPress</span>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-view">
-											<i class="fa fa-eye"></i>
-											99
-										</span>
-										<span class="post-meta-item post-meta-item-comments">
-											<i class="fa fa-comments"></i>
-											12
-										</span>
-									</div>
-
-								</div>
-
-							</article>
-							
-							<article class="post card">
-								
-								<div class="post-author clearfix">
-									
-									<div class="author">
-										<span>
-											<a href="#">iCuong</a>
-										</span>
-									</div>
-
-									<div class="avatar-container">
-										<img class="avatar" src="imgs/avatar.png" alt="iCuong" title="iCuong">
-									</div>
-										
-								</div>
-								
-								<div class="post-body">
-
-									<h2 class="post-title">
-										<a href="posts/what-is-html.html">What is HTML?</a>
-									</h2>
-
-									<div class="post-content">
-										<p>HTML is stands for Hyper Text Markup Language, it's a markup language used to creating Web pages. It defines basic structure of any website...</p>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-time">April 14, 2019</span>
-										<span class="post-meta-item post-meta-item-cat">HTML</span>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-view">
-											<i class="fa fa-eye"></i>
-											99
-										</span>
-										<span class="post-meta-item post-meta-item-comments">
-											<i class="fa fa-comments"></i>
-											12
-										</span>
-									</div>
-
-								</div>
-
-							</article>
-
-							<article class="post card">
-								
-								<div class="post-author clearfix">
-									
-									<div class="author">
-										<span>
-											<a href="#">iCuong</a>
-										</span>
-									</div>
-
-									<div class="avatar-container">
-										<img class="avatar" src="imgs/avatar.png" alt="iCuong" title="iCuong">
-									</div>
-										
-								</div>
-								
-								<div class="post-body">
-
-									<h2 class="post-title">
-										<a href="posts/what-is-css.html">What is CSS?</a>
-									</h2>
-
-									<div class="post-content">
-										<p>HTML is stands for Hyper Text Markup Language, it's not a programming language, it's a markup language for creating Web pages...</p>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-time">April 14, 2019</span>
-										<span class="post-meta-item post-meta-item-cat">HTML</span>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-view">
-											<i class="fa fa-eye"></i>
-											99
-										</span>
-										<span class="post-meta-item post-meta-item-comments">
-											<i class="fa fa-comments"></i>
-											12
-										</span>
-									</div>
-
-								</div>
-
-							</article>
-
-							<article class="post card">
-								
-								<div class="post-author clearfix">
-									
-									<div class="author">
-										<span>
-											<a href="#">iCuong</a>
-										</span>
-									</div>
-
-									<div class="avatar-container">
-										<img class="avatar" src="imgs/avatar.png" alt="iCuong" title="iCuong">
-									</div>
-										
-								</div>
-								
-								<div class="post-body">
-
-									<h2 class="post-title">
-										<a href="posts/what-is-javascript.html">What is Javascript?</a>
-									</h2>
-
-									<div class="post-content">
-										<p>HTML is stands for Hyper Text Markup Language, it's not a programming language, it's a markup language for creating Web pages...</p>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-time">April 14, 2019</span>
-										<span class="post-meta-item post-meta-item-cat">HTML</span>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-view">
-											<i class="fa fa-eye"></i>
-											99
-										</span>
-										<span class="post-meta-item post-meta-item-comments">
-											<i class="fa fa-comments"></i>
-											12
-										</span>
-									</div>
-
-								</div>
-
-							</article>
-
-							<article class="post card">
-								
-								<div class="post-author clearfix">
-									
-									<div class="author">
-										<span>
-											<a href="#">iCuong</a>
-										</span>
-									</div>
-
-									<div class="avatar-container">
-										<img class="avatar" src="imgs/avatar.png" alt="iCuong" title="iCuong">
-									</div>
-										
-								</div>
-								
-								<div class="post-body">
-
-									<h2 class="post-title">
-										<a href="posts/what-is-php.html">What is PHP?</a>
-									</h2>
-
-									<div class="post-content">
-										<p>HTML is stands for Hyper Text Markup Language, it's not a programming language, it's a markup language for creating Web pages...</p>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-time">April 14, 2019</span>
-										<span class="post-meta-item post-meta-item-cat">HTML</span>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-view">
-											<i class="fa fa-eye"></i>
-											99
-										</span>
-										<span class="post-meta-item post-meta-item-comments">
-											<i class="fa fa-comments"></i>
-											12
-										</span>
-									</div>
-
-								</div>
-
-							</article>
-
-							<article class="post card">
-								
-								<div class="post-author clearfix">
-									
-									<div class="author">
-										<span>
-											<a href="#">iCuong</a>
-										</span>
-									</div>
-
-									<div class="avatar-container">
-										<img class="avatar" src="imgs/avatar.png" alt="iCuong" title="iCuong">
-									</div>
-										
-								</div>
-								
-								<div class="post-body">
-
-									<h2 class="post-title">
-										<a href="posts/what-is-sql.html">What is SQL?</a>
-									</h2>
-
-									<div class="post-content">
-										<p>HTML is stands for Hyper Text Markup Language, it's not a programming language, it's a markup language for creating Web pages...</p>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-time">April 14, 2019</span>
-										<span class="post-meta-item post-meta-item-cat">HTML</span>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-view">
-											<i class="fa fa-eye"></i>
-											99
-										</span>
-										<span class="post-meta-item post-meta-item-comments">
-											<i class="fa fa-comments"></i>
-											12
-										</span>
-									</div>
-
-								</div>
-
-							</article>
-								
-							<article class="post card">
-								
-								<div class="post-author clearfix">
-									
-									<div class="author">
-										<span>
-											<a href="#">iCuong</a>
-										</span>
-									</div>
-
-									<div class="avatar-container">
-										<img class="avatar" src="imgs/avatar.png" alt="iCuong" title="iCuong">
-									</div>
-										
-								</div>
-								
-								<div class="post-body">
-
-									<h2 class="post-title">
-										<a href="posts/what-is-git.html">What is Git?</a>
-									</h2>
-
-									<div class="post-content">
-										<p>HTML is stands for Hyper Text Markup Language, it's not a programming language, it's a markup language for creating Web pages...</p>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-time">April 14, 2019</span>
-										<span class="post-meta-item post-meta-item-cat">HTML</span>
-									</div>
-
-									<div class="post-meta">
-										<span class="post-meta-item post-meta-item-view">
-											<i class="fa fa-eye"></i>
-											99
-										</span>
-										<span class="post-meta-item post-meta-item-comments">
-											<i class="fa fa-comments"></i>
-											12
-										</span>
-									</div>
-
-								</div>
-
-							</article>
-							
-
-					
-
-						</div>
-						
-					</div>
-					
-					<!-- Contain Right -->
-					<div class="col-12 col-md-3 content-right">
-						<div class="content-right-home">
-							<header>
-								<h4 class="heading">Other Posts</h4>
-							</header>
-
-							<ul class="ul-list">
-
-								<li>
-									<a href="docs/wordpress/wordpress-basic/overview-wordpress-basic-tutorial.html">Overview WordPress basic Tutorial</a>
-								</li>	
-								<li>
-									<a href="docs/wordpress/theme-development/overview-wordpress-theme-development.html">Overview WordPress Theme Development</a>
-								</li>
-								<li>
-									<a href="#">A tour of the Dart language How to use packages</a>
-								</li>
-								<li>
-									<a href="#">How to use packages How to use packages How to use packages</a>
-								</li>
-								<li>
-									<a href="#">A tour of the Dart language How to use packages</a>
-								</li>
-								<li>
-									<a href="#">A tour of the Dart language How to use packages</a>
-								</li>
-
-							</ul>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</section>
-
-		<!-- Footer -->
-		<footer>
-			<div class="copyright-container">
-				<p class="copyright">
-					<span>Copyright © 2019 iCuong. All rights reserved.</span> 
-	            </p>
-	        </div>
-		</footer>
-
-	</div>
-	
-	<!-- Canvas JS -->
-	<script src="assets/custom/js/js_canvas.js"></script>
-
-	<!-- Root JS -->
-	<script src="assets/root/js/root.js"></script>
-	<!-- Custom JS -->
-	<script src="assets/custom/js/js.js"></script>
-	
-</body>
-</html>
+---
+title: "Mundana Free Jekyll Theme"
+layout: default
+pagination:
+    enabled: true
+description: "A great Jekyll theme developed by Sal @wowthemesnet."
+---
+
+
+<div class="container">
+    
+{% if page.url == "/" %}
+    
+    
+    
+<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+<div class="row remove-site-content-margin">
+    
+    <!-- latest post -->
+    {% assign latest_post = site.posts[0] %}
+    <div class="col-md-6">
+    <div class="card border-0 mb-4 box-shadow">   
+    <a href="{{site.baseurl}}{{latest_post.url}}">
+    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+    </h2>
+    <p class="excerpt">
+        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+    </p>
+    <div>
+        <small class="d-block text-muted">
+            In <span class="catlist">
+                {% for category in latest_post.categories %}
+                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                {% endfor %}
+                </span>                   
+        </small>
+        <small class="text-muted">
+            {{ latest_post.date | date: '%b %d, %Y' }}
+        </small>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-md-6">
+        
+        <!-- second latest post -->
+        {%- assign second_post = site.posts[1] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if second_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{second_post.url}}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in second_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ second_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+        <!-- third latest post -->
+        {%- assign third_post = site.posts[2] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if third_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{third_post.url}}">
+                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in third_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ third_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+        <!-- fourth latest post -->
+        {%- assign fourth_post = site.posts[3] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if fourth_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{fourth_post.url}}">
+                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in fourth_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ fourth_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+    </div>
+    
+</div>
+    
+<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+{% for post in site.posts %} 
+{% if post.tags contains "sticky" %}
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3">{{post.title}}</h1>
+                <p class="mb-3 lead">
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                </p>
+                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
+            </div>
+        </div>
+    </div>
+</div> 
+{% endif %}
+{% endfor %}
+
+
+    
+
+
+{% endif %} <!--endif page url is / -->
+    
+
+
+<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
+    
+<div class="row mt-3">
+   
+    <div class="col-md-8 main-loop">
+        
+        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+        
+
+        {% for post in paginator.posts %}
+        
+            {% include main-loop-card.html %}
+        
+        {% endfor %}
+        
+        <div class="mt-5">
+         <!-- Pagination links -->
+            {% if paginator.total_pages > 1 %}
+            <ul class="pagination"> 
+              {% if paginator.previous_page %}
+                <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+              {% else %}
+                <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
+              {% endif %}
+
+              {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
+                {% elsif page == 1 %}
+                <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
+                {% else %}
+                <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                {% endif %}
+              {% endfor %}
+
+              {% if paginator.next_page %}
+                <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+              {% else %}
+                <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
+              {% endif %}
+            </ul>
+            {% endif %}      
+        </div>
+        
+    </div>
+    
+    <div class="col-md-4">
+        {% include sidebar-featured.html %}    
+    </div>
+    
+</div>
+
+
+
+</div>
