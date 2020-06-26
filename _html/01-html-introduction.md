@@ -45,10 +45,10 @@ From now, we'll to write code is the standard that defines in HTML5
 * `<!DOCTYPE html>` : defines this document to be HTML5
 * `<html>` : the element is the root element of an HTML page
 * `<head>` : the element contains meta information about the document
-* `title` : the element specifies a title for the document
-* `body` : the element contains the visible page content
-* `h1` : the element defines a large heading
-* `p` : the element defines a paragraph
+* `<title>` : the element specifies a title for the document
+* `<body>` : the element contains the visible page content
+* `<h1>` : the element defines a large heading
+* `<p>` : the element defines a paragraph
 {% endcapture %}
 
 <div class="notice">
