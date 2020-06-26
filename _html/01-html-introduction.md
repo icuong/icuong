@@ -62,7 +62,7 @@ HTML tags are element names surrounded by angle brackets
 <tagname>content goes here...</tagname>
 ```
 
-- HTML tags normally come in pair like ` <p>` and `</p>`
+- HTML tags normally come in pair like `<p>` and `</p>`
 - The first tag in a pair is the **start tag** (or **opening tag**), the second tag is the **end tag** (or **closing tag**)
 - The end tag is written like the start tag, but with a **forward slash** ('/') inserted before the tag name
 
