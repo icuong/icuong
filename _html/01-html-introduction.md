@@ -13,9 +13,9 @@ toc: true
 ## What is HTML?
 
 HTML is stands for Hyper Text Markup Language, it's not a programming language, it's a markup language for creating Web pages
-- `.HTML describes the structure of a Web page`
-- `.HTML consists of a series of elements`
-- `.HTML elements tell the browser how to display the content`
+- HTML describes the structure of a Web page
+- HTML consists of a series of elements
+- HTML elements tell the browser how to display the content
 
 **Note:** **HTML elements** are represented by tags. The elements used to "markup" to annotate text, images, and other content for display in a Web browser.
 {: .notice--warning}
@@ -56,4 +56,17 @@ From now, we'll to write code is the standard that defines in HTML5
 </div>
 
 ## HTML Tags
+
+HTML tags are element names surrounded by angle brackets
+```html
+<tagname>content goes here...</tagname>
+```
+
+- HTML tags normally come in pair like ` <p>` and `</p>`
+- The first tag in a pair is the **start tag** (or **opening tag**), the second tag is the **end tag** (or **closing tag**)
+- The end tag is written like the start tag, but with a **forward slash** ('/') inserted before the tag name
+
 ## Web Browsers
+The most used browsers are Chrome, Edge, Firefox, Safari. The purpose of a web browser is to read HTML documents and display them for you
+We will be use Chrome browser to display the web page for you.
+The browser does not display the HTML tags, but uses them to determine how to display the document
