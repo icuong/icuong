@@ -41,7 +41,7 @@ From now, we'll to write code is the standard that defines in HTML5
   <p>My first paragraph.</p>
 <body>
 
-</html>% endraw %}
+</html>{% endraw %}
 ```
 {% endhighlight %}
 
