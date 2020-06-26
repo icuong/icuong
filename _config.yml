@@ -85,6 +85,12 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/chicuong.git/"
 
+collections:
+  html:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -104,6 +110,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _html
+  - scope:
+      path: ""
+      type: html
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "html"
 
 category_archive:
   type: liquid
