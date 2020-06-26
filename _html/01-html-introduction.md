@@ -26,9 +26,9 @@ HTML5 is a new version of the language HTML, with new elements, attributes, and 
 From now, we'll to write code is the standard that defines in HTML5
 
 ## A simple example of HTML document
-```html
+
 {% highlight javascript linenos %}
-{% raw %}<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -40,9 +40,8 @@ From now, we'll to write code is the standard that defines in HTML5
   <p>My first paragraph.</p>
 <body>
 
-</html>{% endraw %}
+</html>
 {% endhighlight %}
-```
 
 ## HTML Tags
 ## Web Browsers
