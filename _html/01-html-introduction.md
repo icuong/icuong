@@ -68,5 +68,7 @@ HTML tags are element names surrounded by angle brackets
 
 ## Web Browsers
 The most used browsers are Chrome, Edge, Firefox, Safari. The purpose of a web browser is to read HTML documents and display them for you
+
 We will be use Chrome browser to display the web page for you.
+
 The browser does not display the HTML tags, but uses them to determine how to display the document
