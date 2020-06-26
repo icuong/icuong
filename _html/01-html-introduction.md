@@ -27,6 +27,7 @@ From now, we'll to write code is the standard that defines in HTML5
 
 ## A simple example of HTML document
 
+{% highlight javascript linenos %}
 ```html
 {% raw %}<!DOCTYPE html>
 <html>
@@ -39,6 +40,7 @@ From now, we'll to write code is the standard that defines in HTML5
 </body>
 </html>{% endraw %}
 ```
+{% endhighlight %}
 
 ## HTML Tags
 ## Web Browsers
