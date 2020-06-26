@@ -13,8 +13,8 @@ main:
 html:
   - title: HTML Tutorial
     children:
-      - title: "Quick-Start Guide"
-        url: /html/quick-start-guide/
+      - title: "HTML Introduction"
+        url: /html/html-introduction/
       - title: "Structure"
         url: /html/structure/
       - title: "Installation"
