@@ -28,7 +28,7 @@ From now, we'll to write code is the standard that defines in HTML5
 ## A simple example of HTML document
 
 ```html
-<!DOCTYPE html>
+{% raw %}<!DOCTYPE html>
 <html>
 <head>
 	<title>Page Title</title>
@@ -37,7 +37,7 @@ From now, we'll to write code is the standard that defines in HTML5
 	<h1>My First Heading</h1>
 	<p>My first paragraph.</p>
 </body>
-</html>
+</html>{% endraw %}
 ```
 
 ## HTML Tags
