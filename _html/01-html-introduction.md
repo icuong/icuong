@@ -52,7 +52,7 @@ From now, we'll to write code is the standard that defines in HTML5
 {% endcapture %}
 
 <div class="notice">
-	{{ notice-2 | markdownify}}
+	{{ notice-2 | markdownify }}
 </div>
 
 ## HTML Tags
