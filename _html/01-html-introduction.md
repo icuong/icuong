@@ -51,5 +51,9 @@ From now, we'll to write code is the standard that defines in HTML5
 * `p` : the element defines a paragraph
 {% endcapture %}
 
+<div class="notice">
+	{{ notice2 | markdownify}}
+</div>
+
 ## HTML Tags
 ## Web Browsers
