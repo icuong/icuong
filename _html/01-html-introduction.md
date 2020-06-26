@@ -28,7 +28,7 @@ From now, we'll to write code is the standard that defines in HTML5
 ## A simple example of HTML document
 
 ```html
-{% raw %}<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Page Title</title>
@@ -37,8 +37,19 @@ From now, we'll to write code is the standard that defines in HTML5
 	<h1>My First Heading</h1>
 	<p>My first paragraph.</p>
 </body>
-</html>{% endraw %}
+</html>
 ```
+
+{% capture notice-2 %}
+#### Example Explained
+* `<!DOCTYPE html>` : defines this document to be HTML5
+* `<html>` : the element is the root element of an HTML page
+* `<head>` : the element contains meta information about the document
+* `title` : the element specifies a title for the document
+* `body` : the element contains the visible page content
+* `h1` : the element defines a large heading
+* `p` : the element defines a paragraph
+{% endcapture %}
 
 ## HTML Tags
 ## Web Browsers
