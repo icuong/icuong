@@ -41,7 +41,7 @@ From now, we'll to write code is the standard that defines in HTML5
 ```
 
 {% capture notice-2 %}
-#### Example Explained
+**Example Explained**
 * `<!DOCTYPE html>` : defines this document to be HTML5
 * `<html>` : the element is the root element of an HTML page
 * `<head>` : the element contains meta information about the document
