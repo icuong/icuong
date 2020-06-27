@@ -66,7 +66,27 @@ HTML tags are element names surrounded by angle brackets
 - The first tag in a pair is the **start tag** (or **opening tag**), the second tag is the **end tag** (or **closing tag**)
 - The end tag is written like the start tag, but with a **forward slash** ('/') inserted before the tag name
 
+## HTML Elements
+
+An HTML element is defined by a **start tag**, some **content**, and an **end tag**
+```html
+<tagname>content goes here...</tagname>
+```
+
+The HTML element is **everything** from the start tag to the end tag:
+```html
+<h1>This is a heading.</h1>
+<p>This is a paragraph.</p>
+```
+
+| Start tag | Element Content      | End tag |
+| --------         | ------------- | ------- |
+| `<h1>`    | This is a heading.   | `</h1>` |
+| `<p>`     | This is a paragraph. | `</p>`  |
+| `<br>`    | *none*               | *none* |
+
 ## Web Browsers
+
 The most used browsers are Chrome, Edge, Firefox, Safari. The purpose of a web browser is to read HTML documents and display them for you
 
 We will be use Chrome browser to display the web page for you.
