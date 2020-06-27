@@ -84,7 +84,6 @@ The HTML element is **everything** from the start tag to the end tag:
 | `<h1>`    | This is a heading.   | `</h1>` |
 | `<p>`     | This is a paragraph. | `</p>`  |
 | `<br>`    | *none*               | *none*  |
-| `<hr>`    | *none*               | *none*  |
 
 **Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have an end tag!
 {: .notice--warning}
@@ -110,14 +109,39 @@ combine to form an entire HTML page:
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Page title</title>
 </head>
+
 <body>
 	<h1>This is a heading.</h1>
 	<p>This is a paragraph.</p>
 	<p>This is another paragraph.</p>
 </body>
+
 </html>
 ```
+
+{% capture notice-2 %}
+**Here we have:**
+* `<!DOCTYPE html>` : The doctype. The declaration defines that this document is an HTML5 document.
+* `<html></html>` : The `<html>` element. This element wraps all the content on the page. It is sometimes known 
+	as the root element.
+* `<head></head>` : The `<head>` element. This element acts as a container for everything you want to include on the HTML page, **that isn't the content** the page will show to viewers. This includes keywords and a page description that would appear in the search results, CSS to style content, character set declarations, and more. You'll learn more about this in the next article of the series.
+* `<meta charset="UTF-8">` : This element specifies the **character set** for your document to **UTF-8**.
+* `<title></title>` : The `<title>` element. This sets the title of the page, which is the title that appears 
+	in the browser tab the page is loaded in.
+* `<body></body>` : The `<body>` element. This contains **all the content** that displays on the page to show 
+	to viewers, including text, images, videos, games, playable audio tracks, or whatever else.
+* `<h1>` : This tag defines a large heading.
+* `<p>` : This tag defines a paragraph.
+{% endcapture %}
+
+<div class="notice">
+	{{ notice-2 | markdownify }}
+</div>
+
+**Note:** Only the content inside the `<body>` section will be displayed in a browser.
+{: .notice--warning}
