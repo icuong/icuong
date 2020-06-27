@@ -101,3 +101,23 @@ The most used browsers are Chrome, Edge, Firefox, Safari. The purpose of a web b
 We will be use Chrome browser to display the web page for you.
 
 The browser does not display the HTML tags, but uses them to determine how to display the document
+
+## HTML Document Structure
+
+Individual HTML elements aren't very useful on their own. Next, let's examine how individual elements 
+combine to form an entire HTML page:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Page title</title>
+</head>
+<body>
+	<h1>This is a heading.</h1>
+	<p>This is a paragraph.</p>
+	<p>This is another paragraph.</p>
+</body>
+</html>
+```
