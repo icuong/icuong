@@ -150,4 +150,5 @@ combine to form an entire HTML page:
 
 <figure>
 	<img src="/assets/images/HTML-Introduction.png">
+	<figcaption>Three images.</figcaption>
 </figure>
