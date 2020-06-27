@@ -147,3 +147,7 @@ combine to form an entire HTML page:
 {: .notice--warning}
 
 {% include video id="XwcqduaSZwc" provider="youtube" %}
+
+<figure>
+	<img src="/assets/images/HTML-Introduction.png">
+</figure>
