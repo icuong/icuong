@@ -145,3 +145,5 @@ combine to form an entire HTML page:
 
 **Note:** Only the content inside the `<body>` section will be displayed in a browser.
 {: .notice--warning}
+
+{% include video id="XwcqduaSZwc" provider="youtube" %}
