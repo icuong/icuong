@@ -17,7 +17,7 @@ HTML is stands for Hyper Text Markup Language, it's not a programming language, 
 - HTML consists of a series of elements
 - HTML elements tell the browser how to display the content
 
-**Note:** **HTML elements** are represented by tags. The elements used to "markup" to annotate text, images, and other content for display in a Web browser.
+**Note: HTML elements** are represented by tags. The elements used to "markup" to annotate text, images, and other content for display in a Web browser.
 {: .notice--warning}
 
 ## What is HTML5?
@@ -83,7 +83,16 @@ The HTML element is **everything** from the start tag to the end tag:
 | --------         | ------------- | ------- |
 | `<h1>`    | This is a heading.   | `</h1>` |
 | `<p>`     | This is a paragraph. | `</p>`  |
-| `<br>`    | *none*               | *none* |
+| `<br>`    | *none*               | *none*  |
+| `<hr>`    | *none*               | *none*  |
+
+**Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have an end tag!
+{: .notice--warning}
+
+**Note:** Tags in HTML are case-insensitive. This means they can be written in uppercase or lowercase.
+For example, a `<title>` tag could be written as `<title>`, `<TITLE>`, `<Title>`, `<TiTlE>`, etc., 
+and it will work. However, it is best practicle to write all tags in lowercase for consistency, readability, and other reasons.
+{: .notice--warning}
 
 ## Web Browsers
 
