@@ -1,12 +1,10 @@
 ---
 title:  "Install Sublime Text 3 for Windows"
-last_modified_at: 2018-03-20T16:01:04-04:00
+last_modified_at: 2020-06-29T16:01:04-04:00
 categories: 
   - Sublime Text 3
 tags:
   - Sublime Text 3
-toc: true
-toc_label: "Getting Started"
 ---
 
 Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes... as a gemified theme.
