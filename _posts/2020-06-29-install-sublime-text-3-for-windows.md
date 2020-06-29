@@ -6,6 +6,7 @@ categories:
 tags:
   - Sublime Text 3
 toc: true
+toc_sticky: true
 ---
 
 ## Sublime Text 3 - Introduction
