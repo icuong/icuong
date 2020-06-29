@@ -5,6 +5,7 @@ categories:
   - Sublime Text 3
 tags:
   - Sublime Text 3
+toc: true
 ---
 
 ## Sublime Text 3 - Introduction
