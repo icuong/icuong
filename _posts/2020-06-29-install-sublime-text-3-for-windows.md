@@ -19,7 +19,7 @@ Sublime Text 3 is support for Windows, Linux, and macOS. However, here I only in
 
 ### Step 1: Go to the official website of Sublime Text
 
-Go to the official website at the address [link](https://www.sublimetext.com/), and now you will see the **DOWNLOAD FOR WINDOWS** button at the home page. Click to download.
+Go to the official website at the address [https://www.sublimetext.com/](https://www.sublimetext.com/), and now you will see the **DOWNLOAD FOR WINDOWS** button at the home page. Click to download.
 
 ![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/1-Install-Sublime-Text-3-for-Windows.jpg)
 
