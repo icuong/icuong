@@ -27,5 +27,32 @@ Go to the official website at the address [https://www.sublimetext.com/](https:/
 
 Finding the file you just have downloaded from the home page of Sublime Text, and double click on it to start the installation processing
 
-Now, as soon as you have started the installation process a dialog box appears as shown below, and you click Yes
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/2-Install-Sublime-Text-3-for-Windows.jpg)
+
+Now, as soon as you have started the installation process a dialog box appears as shown below, and you click **Yes**
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/3-Install-Sublime-Text-3-for-Windows.jpg)
+
+Another dialog appears that lets you select the location where Sublime Text 3 will install. Keep the default and click **Next**.
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/4-Install-Sublime-Text-3-for-Windows.jpg)
+
+Another dialog appears, again you click **Next**
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/5-Install-Sublime-Text-3-for-Windows.jpg)
+
+Another dialog appears that says is Ready to Install. Now click **Install** to begin installing Sublime Text 3 on your computer.
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/6-Install-Sublime-Text-3-for-Windows.jpg)
+
+When the installation process finishes, a dialog box will appear saying complete the Sublime Text 3 setup, click Finish to exit setup
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/7-Install-Sublime-Text-3-for-Windows.jpg)
+
+### Step 3: Searching the Sublime Text 3 on your computer
+
+
+You can be finding it by the Search Windows tool
+
+You can be finding it on the Desktop monitor
 
