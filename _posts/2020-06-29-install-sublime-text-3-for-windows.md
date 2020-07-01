@@ -1,6 +1,6 @@
 ---
 title:  "Install Sublime Text 3 for Windows"
-last_modified_at: 2020-06-29T16:01:04-04:00
+last_modified_at: 2020-07-01T16:01:04-04:00
 header:
   video:
     id: 8kDm7VTw2rA
@@ -55,8 +55,34 @@ When the installation process finishes, a dialog box will appear saying complete
 
 ### Step 3: Searching the Sublime Text 3 on your computer
 
+If you have installed successfully, now you can find the icon of Sublime Text 3 on your computer.
 
-You can be finding it by the Search Windows tool
+You can be finding it by the Windows Search tool. Double click on the icon to open it.
 
-You can be finding it on the Desktop monitor
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/8-Install-Sublime-Text-3-for-Windows.jpg)
 
+You can be finding it on the Desktop. Double click on the icon to open it.
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/9-Install-Sublime-Text-3-for-Windows.jpg)
+
+After you have opened it up the user interface of the Sublime Text 3 will the same here:
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/10-Install-Sublime-Text-3-for-Windows.jpg)
+
+## Show the Icon of Sublime Text 3 on the Desktop if it not appears
+
+If you have completed the steps to install the Sublime Text 3 but the Icon of Sublime Text 3 that not appears on the Desktop, now let's show it on the Desktop of your computer.
+
+Searching the Sublime Text 3 by the Windows Search tool then right-click on the icon of Sublime Text 3, and select **Open file location** to go to the install folder
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/11-Install-Sublime-Text-3-for-Windows.jpg)
+
+Now, in the install folder finding the Icon of the Sublime Text 3 then right-click on it, and select **Sent to** -> **Desktop**
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/12-Install-Sublime-Text-3-for-Windows.jpg)
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/13-Install-Sublime-Text-3-for-Windows.jpg)
+
+You can now go to the Desktop of your computer and finding the icon of Sublime Text 3.
+
+![Install Sublime Text 3 for Windows]({{ site.url }}{{ site.baseurl }}/assets/images/9-Install-Sublime-Text-3-for-Windows.jpg)
