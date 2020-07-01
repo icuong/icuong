@@ -1,6 +1,10 @@
 ---
 title:  "Install Sublime Text 3 for Windows"
 last_modified_at: 2020-06-29T16:01:04-04:00
+header:
+	video:
+		id: 8kDm7VTw2rA
+		provider: youtube
 categories: 
   - Sublime Text 3
 tags:
