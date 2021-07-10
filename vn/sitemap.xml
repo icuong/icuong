@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://icuong.dev/vn/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icuong.dev/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://icuong.dev/vn/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icuong.dev/vn/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icuong.dev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://icuong.dev/vn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icuong.dev/vn/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icuong.dev/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://icuong.dev/vn/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icuong.dev/vn/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icuong.dev/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://icuong.dev/vn/tags/"
+                />
+  </url>
+  
+</urlset>
