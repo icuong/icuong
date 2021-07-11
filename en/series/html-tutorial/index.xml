@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>HTML Tutorial on Hugo Zzo Theme</title>
+    <title>HTML Tutorial on iCuong Blog</title>
     <link>https://icuong.dev/en/series/html-tutorial/</link>
-    <description>Recent content in HTML Tutorial on Hugo Zzo Theme</description>
+    <description>Recent content in HTML Tutorial on iCuong Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
@@ -31,7 +31,7 @@
  HTML describes the structure of a Web page HTML consists of a series of elements HTML elements tell the browser how to display the content  Note: HTML elements are represented by tags. The elements used to “markup” to annotate text, images, and other content for display in a Web browser.</description>
         
         <dc:creator>zzossig</dc:creator>
-        <media:content url="https://icuong.devimages/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://icuong.dev/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

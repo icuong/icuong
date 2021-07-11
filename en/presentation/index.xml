@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Presentations on Hugo Zzo Theme</title>
+    <title>Presentations on iCuong Blog</title>
     <link>https://icuong.dev/en/presentation/</link>
-    <description>Recent content in Presentations on Hugo Zzo Theme</description>
+    <description>Recent content in Presentations on iCuong Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
@@ -30,7 +30,7 @@
         <description></description>
         
         <dc:creator>zzossig</dc:creator>
-        <media:content url="https://icuong.devimages/feature1/number-four.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://icuong.dev/images/feature1/number-four.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -60,7 +60,7 @@
         <description></description>
         
         <dc:creator>zzossig</dc:creator>
-        <media:content url="https://icuong.devimages/feature1/number-three.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://icuong.dev/images/feature1/number-three.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -90,7 +90,7 @@
         <description></description>
         
         <dc:creator>zzossig</dc:creator>
-        <media:content url="https://icuong.devimages/feature1/number-two.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://icuong.dev/images/feature1/number-two.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -120,7 +120,7 @@
         <description></description>
         
         <dc:creator>zzossig</dc:creator>
-        <media:content url="https://icuong.devimages/feature1/number-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://icuong.dev/images/feature1/number-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

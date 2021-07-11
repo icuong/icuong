@@ -6,14 +6,14 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Tags on iCuong</title>
+    <title>Tags on iCuong Blog</title>
     <link>https://icuong.dev/vn/tags/</link>
-    <description>Recent content in Tags on iCuong</description>
+    <description>Recent content in Tags on iCuong Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vn</language>
-    <managingEditor>chicuong1225@gmail.com (Cương)</managingEditor>
-    <webMaster>chicuong1225@gmail.com (Cương)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
     
         <atom:link href="https://icuong.dev/vn/tags/index.xml" rel="self" type="application/rss+xml" />
     

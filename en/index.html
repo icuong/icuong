@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html><html><head><title>https://icuong.dev</title><link rel="canonical" href="https://icuong.dev"/><meta name="robots" content="noindex"><meta charset="utf-8" /><meta http-equiv="refresh" content="0; url=https://icuong.dev" /></head></html>
-=======
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -8,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hugo Zzo Theme</title>
+    <title>iCuong Blog</title>
     
 
 
@@ -654,7 +651,7 @@
 
   
     
-    var baseurl = JSON.parse("\"https://icuong.dev\"");
+    var baseurl = JSON.parse("\"https://icuong.dev/\"");
     
     var permalink = JSON.parse("\"https://icuong.dev/en/\"");
     
@@ -1346,7 +1343,7 @@
 <meta name="author" content="zzossig">
 
 
-<meta property="og:site_name" content="Hugo Zzo Theme">
+<meta property="og:site_name" content="iCuong Blog">
 <meta property="og:title" content="">
 <meta property="og:url" content="https://icuong.dev/en/">
 <meta property="og:type" content="website">
@@ -1392,12 +1389,12 @@
     "description": "The Zzo theme for Hugo example site.",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://icuong.dev"
+      "@id": "https://icuong.dev/"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Hugo Zzo Theme",
-      "url": "https://icuong.dev"
+      "name": "iCuong Blog",
+      "url": "https://icuong.dev/"
     }
   }
 </script>
@@ -1439,7 +1436,7 @@
     
     
       <a href="/en/" title="Home" rel="home" class="navbar__title-link">
-        <h6 class="navbar__title">Zzo</h6>
+        <h6 class="navbar__title">iCuong</h6>
       </a>
     
   </div>
@@ -1739,37 +1736,53 @@
             
 <header class="header ">
     
-          
+        <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.13.1/dist/core.js" integrity="sha256-dsvC/UolMujQ/UQ7lVeJ7Q/FV3BSzWO0rc8iz1rqHQo=" crossorigin="anonymous"></script>
+
+
   
     
-  
-    
-      <div class="site-header basicflex-column site-header__align-center" data-ani="true" style="width: 100%; height: 200px; padding: 0px 50px;">
-        
-                    
-          
-          <div class="site-header__title site-header__title--shadow" style="font-size: 44px; ;">
-            HUGO
-          </div>
-          
-        
-        
-          <div style="height: 16px"></div>
-        
-        
-           
-          <div class="site-header__subtitle" style="font-size: 18px; " data-cursive="true">
-            The world’s fastest framework for building websites
-          </div>
-                
-        
+      <div class="site-header basicflex-column site-header__align-center" data-ani="true" style="width: 100%; height: 190px; padding: px 50px; font-size: 44px; color:yellow;">
+        <div id="typewriter"></div>
       </div>
+
+      <script>
+        
+        
+
+        var methods = JSON.parse("[{\"typeString\":\"Hello world!\"},{\"pauseFor\":2500},{\"deleteAll\":true},{\"typeString\":\"Strings can be removed\"},{\"pauseFor\":2500},{\"deleteChars\":7},{\"typeString\":\"\\u003cstrong\\u003ealtered!\\u003c/strong\\u003e\"},{\"pauseFor\":2500}]");
+        var options = JSON.parse("{\"autoStart\":false,\"loop\":true}");
+        var typeElem = document.getElementById("typewriter");
+        var typewriter = new Typewriter(typeElem, options);
+        
+        for (var i = 0; i < methods.length; i++) {
+          var key = Object.keys(methods[i])[0];
+
+          if (key === "typeString") {
+            typewriter.typeString(methods[i][key]);
+          } else if (key === "pauseFor") {
+            typewriter.pauseFor(methods[i][key]);
+          } else if (key === "deleteAll") {
+            typewriter.deleteAll();
+          } else if (key === "deleteChars") {
+            typewriter.deleteChars(methods[i][key]);
+          } else if (key === "pause") {
+            typewriter.pause();
+          } else if (key === "stop") {
+            typewriter.stop();
+          }
+        }
+
+        typewriter.start();
+      </script>
     
   
     
   
     
   
+    
+  
+
 
     
 </header>
@@ -1820,7 +1833,7 @@
         <h6 class="subtitle caption">
           <time title="Written At" dir="ltr">📅&nbsp;Dec 18, 2019 </time>
           
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;4&nbsp;min read </span>
           
           &middot; <span title="WRITTEN BY" dir="ltr">🎅&nbsp;Jeus</span>
           
@@ -3048,7 +3061,7 @@
         
           
             
-              <a href="https://icuong.dev/ko/" data-lang="ko" class="dropdown-item">한국어</a>
+              <a href="https://icuong.dev/vn/" data-lang="vn" class="dropdown-item">Việt Nam</a>
             
           
         
@@ -3215,4 +3228,3 @@
 </body>
 
 </html>
->>>>>>> c24c210 (ok)
