@@ -13,12 +13,17 @@
   </url>
   
   <url>
-    <loc>https://icuong.dev/posts/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04-lts-18-04-lts-20-04-lts-google-cloud-compute-engine/</loc>
-    <lastmod>2021-04-04T02:36:42+07:00</lastmod>
+    <loc>https://icuong.dev/posts/</loc>
+    <lastmod>2021-07-12T20:17:50+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://icuong.dev/posts/</loc>
+    <loc>https://icuong.dev/posts/what-is-a-domain-name-and-how-does-it-work/</loc>
+    <lastmod>2021-07-12T20:17:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icuong.dev/posts/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04-lts-18-04-lts-20-04-lts-google-cloud-compute-engine/</loc>
     <lastmod>2021-04-04T02:36:42+07:00</lastmod>
   </url>
   

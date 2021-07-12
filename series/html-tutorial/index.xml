@@ -11,8 +11,8 @@
     <description>Recent content in HTML Tutorial on iCuong Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
-    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <managingEditor>chicuong1225@gmail.com (Cương)</managingEditor>
+    <webMaster>chicuong1225@gmail.com (Cương)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 17 Mar 2021 00:17:16 +0700</lastBuildDate>
     
@@ -24,13 +24,13 @@
         <title>Html Introduction</title>
         <link>https://icuong.dev/posts/html-introduction/</link>
         <pubDate>Wed, 17 Mar 2021 00:17:16 +0700</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>chicuong1225@gmail.com (Cương)</author>
         <atom:modified>Wed, 17 Mar 2021 00:17:16 +0700</atom:modified>
         <guid>https://icuong.dev/posts/html-introduction/</guid>
         <description>What is HTML? HTML is stands for Hyper Text Markup Language, it’s not a programming language, it’s a markup language for creating Web pages
  HTML describes the structure of a Web page HTML consists of a series of elements HTML elements tell the browser how to display the content  Note: HTML elements are represented by tags. The elements used to “markup” to annotate text, images, and other content for display in a Web browser.</description>
         
-        <dc:creator>zzossig</dc:creator>
+        <dc:creator>Cương</dc:creator>
         <media:content url="https://icuong.dev/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
